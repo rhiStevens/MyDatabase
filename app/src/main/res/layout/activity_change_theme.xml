@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ishpa.mydatabase.ChangeTheme"
+    android:id="@+id/layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the Movie List"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:id="@+id/about_movie"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.506" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="206dp"
+        android:src="@drawable/movie"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:foregroundGravity="center"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/about_movie"
+        app:layout_constraintVertical_bias="0.093"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you ever thought 'Hey, I want to watch that movie' and then promptly forgotten what it was when you get to the movie store. This app allows you to write them down in the moment and have a convenient list, right in front of you."
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:id="@+id/textView2" />
+
+
+
+</android.support.constraint.ConstraintLayout>
